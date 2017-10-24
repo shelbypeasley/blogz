@@ -4,5 +4,7 @@
     <h1>{{ go.title }}</h1>
     <br>
     {{ go.body }}
+    <br>
+    <h6>Written by<a href="blog?user={{go.owner.id}}">{{ go.owner.username }}</a><h6>
 
 {% endblock %}
