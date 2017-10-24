@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+<h2>Login</h2>
+<form action="/login" method="post">
+  <p><label>Username <input type="text" name="username"/></label></p>
+  <p><label>Password <input type="password" name="password"/></label></p>
+  <p><input type="submit" value="Login"/></p>
+</form>
+<p>Don't Have an Account? Sign Up <a href="signup">Here!</a></p>
+
+{% endblock %}

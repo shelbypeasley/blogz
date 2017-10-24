@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+<center><h1></h1></center>
+{% for user in users %}
+    <h3>{{ user.lonepost }}<h3>
+    <br>
+{% endfor %}
+
+{% endblock %}
